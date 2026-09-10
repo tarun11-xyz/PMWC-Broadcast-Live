@@ -1,4 +1,4 @@
-# 🏆 Tournament Leaderboard App
+# 🏆 Tournament Leaderboard Broadcast App
 
 A local tournament leaderboard application for managing live team scores, player status, match rankings, and saved match history. The app is designed for tournament organizers who want a simple way to control and display match data from their own computer.
 
