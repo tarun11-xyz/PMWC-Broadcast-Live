@@ -1,0 +1,194 @@
+[
+  {
+    "id": "1",
+    "name": "AUR",
+    "points": 0,
+    "elims": 2,
+    "players": [
+      false,
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "id": "2",
+    "name": "NGX",
+    "points": 0,
+    "elims": 0,
+    "players": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "id": "3",
+    "name": "TIAN",
+    "points": 0,
+    "elims": 0,
+    "players": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "id": "4",
+    "name": "ULA",
+    "points": 0,
+    "elims": 0,
+    "players": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "id": "5",
+    "name": "EA",
+    "points": 0,
+    "elims": 0,
+    "players": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "id": "6",
+    "name": "NS",
+    "points": 0,
+    "elims": 0,
+    "players": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "id": "7",
+    "name": "FURIA",
+    "points": 0,
+    "elims": 0,
+    "players": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "id": "8",
+    "name": "HORAA",
+    "points": 0,
+    "elims": 0,
+    "players": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "id": "9",
+    "name": "GODL",
+    "points": 0,
+    "elims": 0,
+    "players": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "id": "10",
+    "name": "FL",
+    "points": 0,
+    "elims": 0,
+    "players": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "id": "11",
+    "name": "4T",
+    "points": 0,
+    "elims": 0,
+    "players": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "id": "12",
+    "name": "ULFU",
+    "points": 0,
+    "elims": 0,
+    "players": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "id": "13",
+    "name": "OG",
+    "points": 0,
+    "elims": 0,
+    "players": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "id": "14",
+    "name": "S2G",
+    "points": 0,
+    "elims": 0,
+    "players": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "id": "15",
+    "name": "VIT",
+    "points": 0,
+    "elims": 0,
+    "players": [
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "id": "16",
+    "name": "KIDA",
+    "points": 0,
+    "elims": 0,
+    "players": [
+      true,
+      true,
+      true,
+      false
+    ]
+  }
+]

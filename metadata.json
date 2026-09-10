@@ -1,0 +1,6 @@
+{
+  "name": "Live Broadcast Leaderboard",
+  "description": "A real-time 1:2 aspect ratio leaderboard for live broadcasts with an admin panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
