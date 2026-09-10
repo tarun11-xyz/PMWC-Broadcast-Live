@@ -1,0 +1,113 @@
+=========================================================
+🏆 TOURNAMENT LEADERBOARD APP - LOCAL SETUP GUIDE
+=========================================================
+Welcome to your Tournament Leaderboard App! This guide will 
+walk you through exactly how to run this application on your 
+own computer and how to manage your match data locally.
+
+---------------------------------------------------------
+STEP 1: INSTALL NODE.JS
+---------------------------------------------------------
+To run this application, your computer needs Node.js (the 
+engine that runs the server).
+
+1. Go to the official website: https://nodejs.org/
+2. Download the "LTS" (Long Term Support) version.
+3. Run the installer and follow the standard installation 
+   prompts. Keep all default settings (make sure it installs 
+   NPM alongside Node.js).
+4. Restart your computer if prompted.
+
+---------------------------------------------------------
+STEP 2: OPEN THE PROJECT
+---------------------------------------------------------
+1. Unzip/extract this project folder anywhere on your computer.
+2. Open a Terminal or Command Prompt:
+   - On Windows: Open the project folder, click the address 
+     bar at the top, type `cmd`, and press Enter.
+   - On Mac: Open Terminal, type `cd ` (with a space), drag 
+     the project folder into the terminal window, and press 
+     Enter.
+
+---------------------------------------------------------
+STEP 3: INSTALL REQUIRED MODULES
+---------------------------------------------------------
+Before running the app for the first time, you need to 
+download the project's dependencies (React, Express, etc.).
+
+1. In your Terminal (making sure you are inside the project 
+   folder), type the following command and press Enter:
+   
+   npm install
+
+2. Wait for it to finish. It will create a "node_modules" 
+   folder. You only need to do this step once!
+
+---------------------------------------------------------
+STEP 4: START THE SERVER
+---------------------------------------------------------
+To turn on your application:
+
+1. In the same Terminal, type:
+   
+   npm run dev
+
+2. Press Enter. You should see a message saying the server 
+   is running on http://localhost:3000.
+3. Keep this terminal window open! If you close it, the app 
+   will turn off.
+
+---------------------------------------------------------
+STEP 5: OPEN THE APP IN YOUR BROWSER
+---------------------------------------------------------
+Open Chrome, Safari, or Edge and go to these links:
+
+- Main Leaderboard: http://localhost:3000/
+- Match Rankings:   http://localhost:3000/rankings
+- Admin Panel:      http://localhost:3000/admin
+
+(Tip: You can open the Admin panel on your phone or a 
+second monitor if they are on the same WiFi network, using 
+your computer's local IP address instead of "localhost"!)
+
+---------------------------------------------------------
+STEP 6: HOW TO MANAGE & SAVE MATCHES
+---------------------------------------------------------
+Because you are running this locally, all your data is 
+safely saved directly to your hard drive. 
+
+1. LIVE UPDATES: 
+   Go to the Admin Panel. Change team names, adjust points, 
+   or mark players as eliminated. The moment you make a 
+   change, the `data.json` file in your project folder is 
+   automatically updated, and the Main Leaderboard will 
+   animate the changes in real-time.
+
+2. SAVING MATCH HISTORY:
+   When a match is completely finished and you want to save 
+   the final results before resetting for the next game:
+   - Go to the Admin Panel.
+   - Ensure the "DAY" and "MATCH" numbers at the top are correct.
+   - Click the green "End Match & Save Data" button.
+   
+3. WHERE DOES IT SAVE?
+   Clicking that button takes a snapshot of the current 
+   scores and saves it permanently as a text file inside 
+   the `data/matches/` folder in your project directory. 
+   You can view these saved match results anytime in the 
+   "Match History" tab of the Admin Panel!
+
+4. RESETTING FOR THE NEXT GAME:
+   After saving your match, you can click the red "Reset 
+   Scores" button to wipe the live `data.json` board clean 
+   for the next round. (Your saved match history will NOT 
+   be deleted).
+
+=========================================================
+TROUBLESHOOTING
+=========================================================
+- "Command not found: npm" -> Node.js is not installed 
+  correctly or you need to restart your terminal/computer.
+- "Port 3000 is already in use" -> You already have a 
+  terminal running the app. Close the old terminal, or press 
+  Ctrl+C to stop the server before starting it again.
